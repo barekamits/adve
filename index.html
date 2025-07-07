@@ -90,7 +90,7 @@
       font-size: 48px;
       font-family: 'Kamavor', sans-serif;
       text-align: center;
-      margin-top: 20px;
+      margin-top: 30px;
     }
 
     /* Քաունթդաուն */
@@ -99,7 +99,7 @@
       display: flex;
       justify-content: center;
       gap: 40px;
-      margin-top: 10px;
+      margin-top: 15px;
       text-align: center;
     }
 
@@ -120,14 +120,14 @@
       font-family: 'Montserratarm-Medium',sans-serif;
       font-size: 24px;
       text-align: center;
-      margin: 30px 20px 40px;
+      margin: 40px 20px 50px;
       line-height: 1.5;
     }
       .date-bar {
         display: flex;
         justify-content: center;
-        align-items: center;  /* Հիմա կենտրոնում են */
-        margin: 60px 40px 40px;
+        align-items: center;
+        margin: 50px 40px 50px;
         color: #3B3B28;
         font-family: 'Montserratarm', sans-serif;
         gap: 20px;
@@ -142,18 +142,18 @@
 
       .side-block .line-top {
         width: 100%;
-        height: 0.5px;             /* Շատ նուրբ գիծ */
+        height: 0.5px;
         background-color: #3B3B28;
-        margin-bottom: 6px;        /* Վերին գիծը տեքստի վերևում */
+        margin-bottom: 6px;
         opacity: 0.3;
         border-radius: 1px;
       }
 
       .side-block .line-bottom {
         width: 100%;
-        height: 0.5px;             /* Շատ նուրբ գիծ */
+        height: 0.5px;
         background-color: #3B3B28;
-        margin-top: 6px;           /* Ներքևին գիծը տեքստի ներքևում */
+        margin-top: 6px;
         opacity: 0.3;
         border-radius: 1px;
       }
@@ -175,26 +175,27 @@
       }
       .center-block-church {
         text-align: center;
-/* margin-top: 8px; /* Անհրաժեշտ բացատ */
+        margin-top: 40px;
+        margin-bottom: 40px;
       }
 
       .church-image {
         max-width: 90px;
         height: auto;
-        margin-top: -40px; /* բացատը կրճատելու համար բացասական margin */
+        margin-bottom: 10px;
         display: block;
         margin-left: auto;
         margin-right: auto;
       }
       .church-caption {
-        margin-top: 6px; /* church նկարի և տեքստի միջև բացատ */
+        margin-top: 6px;
         font-family: 'Kamavor';
         font-size: 30px;
         color: #3B3B28;
         user-select: none;
       }
       .church-description {
-        margin-top: 30px;
+        margin-top: 20px;
         font-family: 'Montserratarm-Medium', sans-serif;
         font-size: 16px;
         color: #3B3B28;
@@ -211,12 +212,12 @@
         color: #3B3B28;
       }
     .how-to-reach {
-      background-color: #3B3B28; /* նույն մուգ գույնը ինչ նկարի մեջ */
+      background-color: #3B3B28;
       color: white;
-      font-family: 'Montserratarm-Medium', sans-serif; /* կամ փոխիր քո հատուկ font-ով */
-      font-size: 16px;           /* Փոքր տառաչափ */
-      padding: 8px 24px;         /* Ավելի փոքր padding */
-      border-radius: 30px;       /* Կլորությունն էլ մի փոքր փոքրացրինք */
+      font-family: 'Montserratarm-Medium', sans-serif;
+      font-size: 16px;
+      padding: 8px 24px;
+      border-radius: 30px;
       display: inline-block;
       margin-top: 20px;
       letter-spacing: 1px;
@@ -230,64 +231,67 @@
       cursor: pointer;
     }
     .center-block-rest {
-            text-align: center;
-    /* margin-top: 8px; /* Անհրաժեշտ բացատ */
-          }
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
 
-          .cup-image {
-            max-width: 90px;
-            height: auto;
-            margin-top: 40px; /* բացատը կրճատելու համար բացասական margin */
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-          }
-          .rest-caption {
-            margin-top: 6px; /* church նկարի և տեքստի միջև բացատ */
-            font-family: 'Kamavor';
-            font-size: 30px;
-            color: #3B3B28;
-            user-select: none;
-          }
-          .rest-description {
-            margin-top: 30px;
-            font-family: 'Montserratarm-Medium', sans-serif;
-            font-size: 16px;
-            color: #3B3B28;
-            max-width: 300px;
-            margin-left: auto;
-            margin-right: auto;
-            line-height: 1.3;
-          }
+    .cup-image {
+      max-width: 90px;
+      height: auto;
+      margin-bottom: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .rest-caption {
+      margin-top: 6px;
+      font-family: 'Kamavor';
+      font-size: 30px;
+      color: #3B3B28;
+      user-select: none;
+    }
+    .rest-description {
+      margin-top: 20px;
+      font-family: 'Montserratarm-Medium', sans-serif;
+      font-size: 16px;
+      color: #3B3B28;
+      max-width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.3;
+    }
 
-          .rest-time {
-            margin-top: 14px;
-            font-family: 'Montserratarm-SemiBold', sans-serif;
-            font-size: 16px;
-            color: #3B3B28;
-          }
+    .rest-time {
+      margin-top: 14px;
+      font-family: 'Montserratarm-SemiBold', sans-serif;
+      font-size: 16px;
+      color: #3B3B28;
+    }
     .bottom-image {
       display: block;
       width: 100%;
       height: auto;
       margin-top: 40px;
+      margin-bottom: 40px;
       user-select: none;
     }
     .center-block-schedule {
-            text-align: center;
-    /* margin-top: 8px; /* Անհրաժեշտ բացատ */
-          }
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
 
-          .map-image {
-            max-width: 90px;
-            height: auto;
-            margin-top: 40px; /* բացատը կրճատելու համար բացասական margin */
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-          }
+    .map-image {
+      max-width: 90px;
+      height: auto;
+      margin-bottom: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
     .groom-description {
-      margin-top: 30px;
+      margin-top: 20px;
       font-family: 'Montserratarm-Medium', sans-serif;
       font-size: 16px;
       color: #3B3B28;
@@ -304,20 +308,21 @@
       color: #3B3B28;
     }
     .center-block-bride {
-            text-align: center;
-    /* margin-top: 8px; /* Անհրաժեշտ բացատ */
-          }
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
 
-          .ring-image {
-            max-width: 90px;
-            height: auto;
-            margin-top: 40px; /* բացատը կրճատելու համար բացասական margin */
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-          }
+    .ring-image {
+      max-width: 90px;
+      height: auto;
+      margin-bottom: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
     .bride-description {
-      margin-top: 30px;
+      margin-top: 20px;
       font-family: 'Montserratarm-Medium', sans-serif;
       font-size: 16px;
       color: #3B3B28;
@@ -334,20 +339,21 @@
       color: #3B3B28;
     }
     .center-block-fest {
-            text-align: center;
-    /* margin-top: 8px; /* Անհրաժեշտ բացատ */
-          }
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
 
-          .apse-image {
-            max-width: 90px;
-            height: auto;
-            margin-top: 40px; /* բացատը կրճատելու համար բացասական margin */
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-          }
+    .apse-image {
+      max-width: 90px;
+      height: auto;
+      margin-bottom: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
     .fest-description {
-      margin-top: 30px;
+      margin-top: 20px;
       font-family: 'Montserratarm-Medium', sans-serif;
       font-size: 16px;
       color: #3B3B28;
@@ -368,18 +374,19 @@
       width: 100%;
       height: auto;
       margin-top: 40px;
+      margin-bottom: 40px;
       user-select: none;
     }
     .speech-caption {
-      margin-top: 6px; /* church նկարի և տեքստի միջև բացատ */
+      margin-top: 20px;
       font-family: 'Kamavor';
       font-size: 30px;
       color: #3B3B28;
       user-select: none;
-      text-align: center; /* Տեքստը մեջտեղ բերելու համար */
+      text-align: center;
     }
     .speech-description {
-      margin-top: 15px;
+      margin-top: 20px;
       font-family: 'Montserratarm-Medium', sans-serif;
       font-size: 16px;
       color: #3B3B28;
@@ -390,7 +397,8 @@
       text-align: center;
     }
     .button-wrapper {
-      margin-top: 30px;
+      margin-top: 40px;
+      margin-bottom: 40px;
       display: flex;
       flex-direction: column;
       gap: 20px;
@@ -408,11 +416,11 @@
     }
 
     .btn-yes {
-      background-color: #4c4731; /* մուգ կանաչ-դարչնագույն */
+      background-color: #4c4731;
     }
 
     .btn-no {
-      background-color: #7b685b; /* դարչնագույն-մոխրագույն */
+      background-color: #7b685b;
     }
   </style>
 </head>
